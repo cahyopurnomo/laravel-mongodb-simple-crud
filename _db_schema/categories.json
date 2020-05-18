@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "5ec2b9487d8a70501a0854b7"
+  },
+  "category": "Laravel Tutorial",
+  "slug": "laravel-tutorial"
+},{
+  "_id": {
+    "$oid": "5ec31abd44210000c7007882"
+  },
+  "category": "PHP Tutorials",
+  "slug": "php-tutorials"
+}]
