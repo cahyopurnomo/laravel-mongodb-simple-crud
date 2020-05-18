@@ -29,7 +29,7 @@
         <td>{{ $category->slug}}</td>
         <td>
             <a class="btn btn-primary" href="{{ route('categories.edit',$category->id) }}">Edit</a>        
-             <formaction="{{ route('categories.destroy',$category->id) }}" method="POST" style='display:inline'>
+             <form action="{{ route('categories.destroy',$category->id) }}" method="POST" style='display:inline'>
                 @csrf
                 @method('DELETE')
                 <button type="submit" class="btn btn-danger">Delete</button>
